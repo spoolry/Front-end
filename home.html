@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>fuck bro</title>
+</head>
+<body onload="obterNome()">
+	<script>
+        function obterNome() {
+            var nome = document.cookie.replace(/(?:(?:^|.*;\s*)usuarioNome\s*=\s*([^;]*).*$)|^.*$/, "$1");
+            document.getElementById("nomeUsuario").textContent = nome;
+        }
+    </script>
+	<h1>Olá, <span id="nomeUsuario"></span></h1>
+	<center>
+		<h1>Harry Potter e a Pedra Filosofal</h1>
+
+		<img src="foto.png" alt="Dianho" align="middle">
+	</center>
+	<p>Em uma bela noite fria, das nuvens surge uma motocicleta <i>voadora</i>,
+		o piloto um tanto <i>diferente</i>, com sua <del>barba</del> enorme, carrega consigo um bebê. Criança essa que
+		possuia um sinal em sua testa,
+		marca essa que continha uma historia por tras e um segredo tambem.
+		<b>Na rua dos alfeneiros</b>, havia duas pessoas a sua espera, um senhor de aparencia palida e barba branca, e
+		uma senhora com um chapeu pontudo,
+		Com a crinça no colo,
+	<h2><mark>deixaram em uma casa,</mark></h2> segundo eles uma <mark>tia do menino.</mark>
+	</p>
+	<center>
+		<a href="galeria.html" target="_blank">
+			<h1>GALERIA</h1>
+		</a>
+	</center>
+
+	<h2>HP&#9889;</h2>
+
+	<ul type="disc">
+		<li>Filmes</li>
+		<li>Livros</li>
+	</ul>
+
+	<h2>Perguntas</h2>
+	<ol type="A">
+		<li>Filme favorita?</li>
+		<li>Ator ou Atriz favorito(a)?</li>
+	</ol>
+
+	<form>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome">
+		<input type="button" value="OK" onclick="exibirAlerta()">
+	</form>
+
+	<script>
+		function exibirAlerta() {
+			var nome = document.getElementById("nome").value;
+			alert("Olá, " + nome + "! É US GURI.");
+		}
+	</script>
+	<center>
+		<h1>Filmes</h1>
+
+
+		<table border="1">
+			<tr>
+				<th>Harry Potter e o (a): </th>
+				<th>Ano</th>
+			</tr>
+			<tr>
+				<td>A Pedra Filosofal</td>
+				<td>2001</td>
+			</tr>
+			<tr>
+				<td>A Camara Secreta</td>
+				<td>2002</td>
+			</tr>
+			<tr>
+				<td>O Prisioneiro de Azkaban</td>
+				<td>2004</td>
+			</tr>
+			<tr>
+				<td>O Cálice de Fogo</td>
+				<td>2005</td>
+			</tr>
+			<tr>
+				<td>A Ordem da Fênix</td>
+				<td>2007</td>
+			</tr>
+			<tr>
+				<td>O Enigma do Príncipe</td>
+				<td>2009</td>
+			</tr>
+			<tr>
+				<td>As Relíquias da Morte Pt.1</td>
+				<td>2010</td>
+			</tr>
+			<tr>
+				<td>As Relíquias da Morte Pt.2</td>
+				<td>2011</td>
+			</tr>
+		</table>
+	</center>
+</body>
+<style>
+	body a {
+		color: chocolate;
+		font-size: 50px;
+	}
+
+	body {
+		background-image: url(hog.jpg);
+		background-color: purple;
+		color: #ffffff;
+		size: 50pt;
+		font-size: 20px;
+	}
+
+	body input {
+		background-color: aquamarine;
+		color: rgb(0, 0, 0);
+		font-size: 16px;
+	}
+
+	body table {
+		color: aquamarine;
+		font-size: 30px;
+	}
+
+	footer {
+		color: white;
+	}
+
+	footer a {
+		font-size: 22px;
+	}
+</style>
+
+</html><br>
+
+<footer>by Guilherme Souza&reg Copyright &copy Todos direitos reservados. <A href="index.html">#Home</A></footer>

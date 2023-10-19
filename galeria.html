@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIA</title>
+</head>
+
+<body>
+    <div class='fotos'>
+
+        <img src="foto.png" alt="Dianho" align="middle">
+        <img src="foto1.png" alt="Dianho" align="middle">
+        <img src="foto2.png" alt="Dianho" align="middle">
+        <img src="foto3.png" alt="Dianho" align="middle">
+        <img src="foto4.png" alt="Dianho" align="middle">
+        <img src="foto5.png" alt="Dianho" align="middle">
+        <img src="foto6.png" alt="Dianho" align="middle">
+        <img src="foto7.png" alt="Dianho" align="middle">
+        <img src="foto8.png" alt="Dianho" align="middle">
+
+    </div>
+    
+</body>
+<style> 
+    body :hover {
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        right: 1%;
+        bottom: 1%;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Cor da sobreposição (aqui, preto com 50% de transparência) */
+        opacity: 0.9; /* Inicialmente invisível */
+        transition: opacity 0.3s;
+
+    }
+    .fotos {
+        display:grid;
+        grid-template-columns: repeat(5, 0fr); /* Define 3 colunas igualmente espaçadas */
+        gap: 10px;
+  }
+  footer {
+    position: absolute;
+    text-align: absolute;
+    font-size: 100px;
+    bottom: 1%;
+  }
+</style>
+
+</html>
+<footer><a href="home.html" position="bottom">#Home</a></footer>

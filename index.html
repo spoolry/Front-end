@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+</head>
+
+<body>
+    <script>
+        function salvarNome() {
+            var nome = document.getElementById("nome").value;
+            document.cookie = "usuarioNome=" + nome;
+        }
+    </script>
+    <h1>Bem vindo / Welcome</h1>
+    <div class="index">
+        <form action="home.html" method="post" onsubmit="salvarNome()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <br>
+            <div class="button">
+                <input type="submit" value="Avança 1 Casa">
+            </div>
+        </form>
+    </div>
+</body>
+<style>
+    body {
+    
+        background-color: darkgray;
+        text-align: center;
+        position: relative;
+        width: 1320px;
+        padding: 50px;
+        border: 10px solid #ccc;
+        display: relative;
+        justify-content: relative;
+        align-items: relative;
+        height: 84.3vh;
+        margin: 0;
+    }
+
+    h1 {
+        color: blueviolet;
+    }
+
+    .index {
+        color: aqua;
+        text-align: left 5, right 3;
+    }
+
+    .button input {
+        background-color: rgb(196, 70, 133);
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</html>
